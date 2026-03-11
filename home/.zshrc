@@ -74,6 +74,9 @@ export PATH=$HOME/.dotfiles/bin:$PATH
 # Import ssh keys in keychain
 ssh-add --apple-use-keychain 2>/dev/null;
 
+# Setup xdebug
+export XDEBUG_CONFIG="idekey=VSCODE"
+
 # Enable autosuggestions (installed via brew)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -87,7 +90,7 @@ export PATH="$HOME/.yarn/bin:$PATH"
 #export PATH=/Users/Shared/DBngin/postgresql/17.0/bin:$PATH
 
 export PATH=$HOME/bin:~/.config/phpmon/bin:$PATH
-export JAVA_HOME="$(brew --prefix)/opt/openjdk@21"
+export JAVA_HOME="$(brew --prefix)/opt/openjdk@17"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
@@ -102,31 +105,3 @@ fi
 if command -v fnm &> /dev/null; then
     eval "$(fnm env --use-on-cd)"
 fi
-
-
-# Herd injected PHP binary.
-export PATH="/Users/samueldebacker/Library/Application Support/Herd/bin/":$PATH
-
-
-# Herd injected PHP 8.5 configuration.
-export HERD_PHP_85_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/85/"
-
-
-# Herd injected PHP 8.4 configuration.
-export HERD_PHP_84_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/84/"
-
-
-# Herd injected PHP 8.3 configuration.
-export HERD_PHP_83_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/83/"
-
-
-# Herd injected PHP 8.2 configuration.
-export HERD_PHP_82_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/82/"
-
-
-# Herd injected PHP 8.1 configuration.
-export HERD_PHP_81_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/81/"
-
-
-# Herd injected PHP 7.4 configuration.
-export HERD_PHP_74_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/74/"
