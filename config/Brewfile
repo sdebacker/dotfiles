@@ -1,9 +1,16 @@
 # Dotfiles Brewfile
 # Install with: brew bundle --file=~/.dotfiles/Brewfile
 
+# Spatie Medialibrary
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
+
 # Core tools
+brew "herd"
 brew "node"
-brew "php"
 brew "composer"
 brew "pkg-config"
 brew "wget"
@@ -13,10 +20,9 @@ brew "hub"
 brew "gh"
 brew "ack"
 brew "doctl"
-cask "1password-cli"
 brew "git-secret"
 brew "imagemagick"
-brew "mysql"
+brew "mysql@8.4"
 brew "yarn"
 brew "ghostscript"
 brew "mackup"

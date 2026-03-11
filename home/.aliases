@@ -1,12 +1,16 @@
 # PHP
 alias phpunit="vendor/bin/phpunit"
+
 alias a="php artisan"
 alias ar="php artisan remote"
+
 alias c="claude"
 alias cy="claude-yolo"
+
 alias cu="composer update"
 alias cr="composer require"
 alias ci="composer install"
+
 alias cda="composer dump-autoload -o"
 alias hostfile="sudo vi /etc/hosts"
 alias deploy='envoy run deploy'
@@ -18,6 +22,19 @@ alias pp="php artisan test --parallel"
 alias sshconfig="vi ~/.ssh/config"
 alias copykey='command cat ~/.ssh/id_ed25519.pub 2>/dev/null || command cat ~/.ssh/id_rsa.pub 2>/dev/null | pbcopy'
 alias tunnel='valet share -subdomain=freekmurze -region=eu'
+
+# Editors and GitHub Desktop
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias s="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias s.="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ./"
+alias g.="github ./"
+alias sg.="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ./ & github ./"
+alias p="open -na 'PhpStorm.app'"
+alias p.="open -na 'PhpStorm.app' --args ./"
+alias pg.="open -na 'PhpStorm.app' --args ./ & github ./"
+alias c="code"
+alias c.="code ./"
+alias cg.="code ./ & github ./"
 
 # JavaScript
 alias jest="./node_modules/.bin/jest"
