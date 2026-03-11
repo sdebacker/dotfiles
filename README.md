@@ -1,7 +1,5 @@
 # My dotfiles
 
-![Terminal](images/terminal.png)
-
 Personal dotfiles with modern shell tooling, optimized for Laravel/PHP development. Features fast startup times, smart directory navigation, and modern CLI tools.
 
 ## Key Features
@@ -47,10 +45,8 @@ bin/install
 
 ### Development Tools
 
-- **PHP** - Latest version via Homebrew
 - **Composer** - Dependency manager via Homebrew
 - **Node.js** - LTS version managed via fnm
-- **Laravel Valet** - Local development server
 - **MySQL** - Database with auto-start
 
 ### QuickLook Plugins
@@ -198,9 +194,8 @@ brew bundle --file=~/.dotfiles/config/Brewfile
 - **Modern CLI**: zoxide, bat, eza, ripgrep, fd, git-delta, fnm, fzf, direnv, jq, yq, bottom, zsh-autosuggestions
 - **Fonts**: font-meslo-lg-nerd-font (powerline icons and modern glyphs)
 - **QuickLook**: qlcolorcode, qlstephen, qlmarkdown, quicklook-json, qlprettypatch, quicklook-csv, betterzip, suspicious-package
-- **PHP Extensions**: imagick, memcached, xdebug, redis
 - **Global npm**: agent-browser
-- **Global Composer**: laravel/envoy, spatie/phpunit-watcher, laravel/valet
+- **Global Composer**: laravel/pint
 
 ---
 
