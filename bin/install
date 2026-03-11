@@ -92,14 +92,6 @@ fnm install --lts || warn "fnm install failed"
 fnm use lts-latest || warn "fnm use failed"
 success "fnm configured"
 
-# PHP extensions
-step "Installing PHP extensions"
-pecl install imagick 2>/dev/null || warn "imagick already installed or failed"
-pecl install memcached 2>/dev/null || warn "memcached already installed or failed"
-pecl install xdebug 2>/dev/null || warn "xdebug already installed or failed"
-pecl install redis 2>/dev/null || warn "redis already installed or failed"
-success "PHP extensions processed"
-
 # Global npm packages
 step "Installing global npm packages"
 npm install -g agent-browser || warn "agent-browser already installed or failed"
@@ -109,10 +101,6 @@ success "npm packages processed"
 # Global Composer packages
 step "Installing global Composer packages"
 composer global require laravel/pint || warn "pint already installed or failed"
-composer global require laravel/envoy || warn "envoy already installed or failed"
-composer global require spatie/phpunit-watcher || warn "phpunit-watcher already installed or failed"
-composer global require laravel/valet || warn "valet already installed or failed"
-valet install || warn "valet already installed or failed"
 success "Composer packages processed"
 
 # MySQL
@@ -135,6 +123,8 @@ echo ""
 success "Installation complete!"
 echo ""
 step "Next steps:"
+echo "  • Configure iTerm2: Set font to 'MesloLGM Nerd Font Mono' and enable Powerline glyphs"
+echo "  • Import Solarized theme: config/iterm/*.itermcolors"
 echo "  • Restore settings: mackup restore (if you have backups)"
 echo "  • Customize aliases: ~/.dotfiles-custom/shell/.aliases"
 echo ""

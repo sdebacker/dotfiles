@@ -1,12 +1,16 @@
 # Dotfiles Brewfile
 # Install with: brew bundle --file=~/.dotfiles/Brewfile
 
+# Binaries
+brew "ffmpeg"
+brew "git"
+
 # Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+brew "jpegoptim"
+brew "optipng"
+brew "pngquant"
+brew "svgo"
+brew "gifsicle"
 
 # Core tools
 brew "herd"
@@ -22,7 +26,11 @@ brew "ack"
 brew "doctl"
 brew "git-secret"
 brew "imagemagick"
+brew "libmemcached"
+brew "libmcrypt"
+brew "memcached"
 brew "mysql@8.4"
+brew "redis"
 brew "yarn"
 brew "ghostscript"
 brew "mackup"
@@ -49,6 +57,9 @@ brew "bottom"
 cask "claude-code"
 cask "zed"
 
+# Fonts
+cask "font-meslo-lg-nerd-font"
+
 # QuickLook plugins
 cask "qlcolorcode"
 cask "qlstephen"
@@ -58,3 +69,34 @@ cask "qlprettypatch"
 cask "quicklook-csv"
 cask "betterzip"
 cask "suspicious-package"
+
+# Apps
+brew "deepl"
+brew "dropbox"
+brew "f-bar"
+brew "figma"
+brew "firefox"
+brew "github"
+brew "google-chrome"
+brew "handbrake"
+brew "mole"
+brew "optimage"
+brew "insomnia"
+brew "iterm"
+brew "microsoft-teams"
+brew "nordvpn"
+brew "raycast"
+brew "sequel-ace"
+brew "sf-symbols"
+brew "sketch"
+brew "slack"
+brew "sitesucker-pro"
+brew "sublime-text"
+brew "tableplus"
+brew "the-unarchiver"
+brew "transmission"
+brew "transmit"
+brew "visual-studio-code"
+brew "vlc"
+brew "whatsapp"
+brew "zoomus"

@@ -21,7 +21,6 @@ alias nah='git reset --hard;git clean -df'
 alias pp="php artisan test --parallel"
 alias sshconfig="vi ~/.ssh/config"
 alias copykey='command cat ~/.ssh/id_ed25519.pub 2>/dev/null || command cat ~/.ssh/id_rsa.pub 2>/dev/null | pbcopy'
-alias tunnel='valet share -subdomain=freekmurze -region=eu'
 
 # Editors and GitHub Desktop
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
