@@ -1,10 +1,6 @@
 # Dotfiles Brewfile
 # Install with: brew bundle --file=~/.dotfiles/Brewfile
 
-# Binaries
-brew "ffmpeg"
-brew "git"
-
 # Spatie Medialibrary
 brew "jpegoptim"
 brew "optipng"
@@ -13,7 +9,9 @@ brew "svgo"
 brew "gifsicle"
 
 # Core tools
-brew "herd"
+brew "ffmpeg"
+brew "git"
+brew "mole"
 brew "node"
 brew "composer"
 brew "pkg-config"
@@ -78,7 +76,7 @@ cask "firefox"
 cask "github"
 cask "google-chrome"
 cask "handbrake"
-cask "mole"
+cask "herd"
 cask "optimage"
 cask "insomnia"
 cask "iterm2"
