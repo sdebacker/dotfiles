@@ -52,6 +52,7 @@ brew "yq"
 brew "bottom"
 
 # Development tools
+brew "minicodemonkey/chief/chief"
 cask "claude-code"
 cask "zed"
 
@@ -75,6 +76,7 @@ cask "f-bar"
 cask "figma"
 cask "firefox"
 cask "github"
+cask "ghostty"
 cask "google-chrome"
 cask "handbrake-app"
 cask "herd"
