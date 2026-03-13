@@ -130,3 +130,7 @@ export HERD_PHP_81_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Suppo
 
 # Herd injected PHP 7.4 configuration.
 export HERD_PHP_74_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/74/"
+
+
+# Herd injected PHP 8.0 configuration.
+export HERD_PHP_80_INI_SCAN_DIR="/Users/samueldebacker/Library/Application Support/Herd/config/php/80/"
